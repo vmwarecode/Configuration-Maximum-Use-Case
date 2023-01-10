@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="CASAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-442806d7-1675-4092-86b9-12094e6a3831" name="NG-vRA cloud zones" resourceKind="CAS World" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-462fee37-b8c0-407a-9710-0e7080ac8a14"/>
+                    <Symptom ref="SymptomDefinition-afd6902e-bb98-459f-9c97-7c09df0bf1a8"/>
+                    <Symptom ref="SymptomDefinition-5a8dd72c-9aed-4a78-843a-5b04f4ac145e"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="CASAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-77436764-8bef-4cd2-873c-920f70decd75" name="NG-vRA blueprint" resourceKind="CAS World" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-3206a4ef-9b09-4315-a88c-6556cf9ba70f"/>
+                    <Symptom ref="SymptomDefinition-1177acf8-68f5-4d9a-8627-3d796d537efc"/>
+                    <Symptom ref="SymptomDefinition-4c09b6b6-cce0-4e81-b1c5-41b52dac8341"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="vCenter Operations Adapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-69496456-853d-4763-b508-6f21537174d5" name="NG-vROps metrics" resourceKind="vC-Ops-Cluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-cb5c3608-9620-48f8-a515-8f320156f94a"/>
+                    <Symptom ref="SymptomDefinition-8577c448-616d-4be2-aff9-f5c0d2333b5a"/>
+                    <Symptom ref="SymptomDefinition-830f96cc-c10c-4282-b3bd-b9ab1dfd5742"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-de09db28-8c49-4808-b779-b1e85faeb99a" name="NG-vRA hosts" resourceKind="VMwareAdapter Instance" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-9c75ed1b-f163-4040-8101-a2a9f925ea83"/>
+                    <Symptom ref="SymptomDefinition-4b83b58e-cba6-4f36-88cc-53a6213de772"/>
+                    <Symptom ref="SymptomDefinition-25f9f074-97ff-45bd-b3e7-967f2ca04599"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="vCenter Operations Adapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-8108a58a-4295-477b-a38b-d46d2627b900" name="NG-vROps objects" resourceKind="vC-Ops-Cluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-b1396ea8-1d71-45ba-8337-897ddab14f3b"/>
+                    <Symptom ref="SymptomDefinition-c59a6a68-62f8-49bb-ad26-956a14100f79"/>
+                    <Symptom ref="SymptomDefinition-0106ac7d-7005-47fb-965c-0911eaf9dad4"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="CASAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-8e349f2d-edbf-4090-8586-e8ef1342d4b3" name="NG-vRA projects" resourceKind="CAS World" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-2f5351ee-3d1d-4df2-aad3-a8f0b748457f"/>
+                    <Symptom ref="SymptomDefinition-55b06ae9-249e-466a-8924-7ede5af56279"/>
+                    <Symptom ref="SymptomDefinition-05c6e969-6d29-4a27-910d-3a461a19fa96"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-792df2d1-862b-4fb8-aab5-961c783c1197" name="NG-vSphere virtual machines" resourceKind="VMwareAdapter Instance" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-4c0dc87e-4447-4520-a1f9-466c6e44d424"/>
+                    <Symptom ref="SymptomDefinition-b501c409-e050-4d08-ba61-f34414b41b13"/>
+                    <Symptom ref="SymptomDefinition-0e74157d-82fb-44b9-b66e-8b7f09d5cc6b"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-e9b82855-88cc-4945-ba9b-cc19927fa784" name="NG-vSphere hosts" resourceKind="VMwareAdapter Instance" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-d7204ec9-2c28-4ce6-9e10-273290fa57c0"/>
+                    <Symptom ref="SymptomDefinition-7f08a4e0-ac1c-4275-b340-669c01dae715"/>
+                    <Symptom ref="SymptomDefinition-e9be8c95-039e-4684-a890-9d0ea70e6eab"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="vCenter Operations Adapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-9f4e4439-10dd-4eca-abf2-e32ce85e6f78" name="NG-vROps sessions" resourceKind="vC-Ops-Cluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-ab6b1dec-3e11-4191-a4db-a923772377db"/>
+                    <Symptom ref="SymptomDefinition-033b833f-4ffc-44d5-96c4-cbcdb89bfb97"/>
+                    <Symptom ref="SymptomDefinition-8c8ea958-d5f9-4345-bb43-732365fbc105"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="CASAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-b13a06f0-997d-43ee-a75d-0cfbf821a2f1" name="NG-vRA virtual machines" resourceKind="CAS World" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-7a1f36bd-1c9a-4fa4-a2b6-58a6292aaea8"/>
+                    <Symptom ref="SymptomDefinition-4789fbec-f1a5-4340-aa44-c9965f4d8967"/>
+                    <Symptom ref="SymptomDefinition-db6be0c2-bd1b-4707-b036-6270892d982d"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-23cc8f57-2a7d-45e1-886c-314332439809" name="NG-vSphere running virtual machines" resourceKind="VMwareAdapter Instance" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-141119d3-9d16-42de-9b8d-eb0bd1906d35"/>
+                    <Symptom ref="SymptomDefinition-f1b8fd64-ae4f-44ac-bb0e-1703e8ea351a"/>
+                    <Symptom ref="SymptomDefinition-6c82edf7-10da-4fcc-a790-59a35bd9d4d1"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-9e91bfba-cf6c-41c4-91b9-1c67eff75adf" name="NG-vSphere datastores" resourceKind="VMwareAdapter Instance" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-55513a60-3aa8-471b-9aa0-2c5fe12308b1"/>
+                    <Symptom ref="SymptomDefinition-24bdebab-ffd2-44ae-a823-7d5700831018"/>
+                    <Symptom ref="SymptomDefinition-a6f5f1e8-b5c6-4045-b5ae-62cb3e699b95"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-4789fbec-f1a5-4340-aa44-c9965f4d8967" name="Condition_43c79ea7-a4b6-4c20-a7e4-612c2b1dc98e" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_38e320ca-374b-44ef-ba51-797acdd33aa6" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-141119d3-9d16-42de-9b8d-eb0bd1906d35" name="Condition_a086d524-2ce2-4423-a6c5-99eaa51359cc" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_6dbf9b65-c56a-424a-9d0d-6435deb3eff2" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-cb5c3608-9620-48f8-a515-8f320156f94a" name="Condition_6d7d1d5f-bfcd-46e7-af55-5e5eb378011c" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_024fdecb-8928-495f-9af0-a8d09c3162c1" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-24bdebab-ffd2-44ae-a823-7d5700831018" name="Condition_643d32c9-b98d-44ac-a008-901aec436aa8" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_392ac0d4-965e-4eb4-8014-b5f821180505" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-8577c448-616d-4be2-aff9-f5c0d2333b5a" name="Condition_13121073-f1fb-406a-ad47-aa5126acb4c6" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_024fdecb-8928-495f-9af0-a8d09c3162c1" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-05c6e969-6d29-4a27-910d-3a461a19fa96" name="Condition_e289843f-f017-4ad2-8b01-45b23750241b" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_500defa6-b6e7-4dba-b7fa-aa4474a44e39" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-462fee37-b8c0-407a-9710-0e7080ac8a14" name="Condition_5ddf08e7-86b5-4553-9c07-77c14d3244c6" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_a2ca582f-fc94-47d1-a8a0-7f83ef79d99e" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-55513a60-3aa8-471b-9aa0-2c5fe12308b1" name="Condition_bbaf7728-e6c4-4545-a317-d4b2c8889772" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_392ac0d4-965e-4eb4-8014-b5f821180505" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-a6f5f1e8-b5c6-4045-b5ae-62cb3e699b95" name="Condition_6010583d-f4cd-4a17-8d39-80fc83acff20" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_392ac0d4-965e-4eb4-8014-b5f821180505" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b501c409-e050-4d08-ba61-f34414b41b13" name="Condition_a33df3ac-c77c-4d6f-926b-ddf11879cb09" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_5bff108b-645a-4249-b393-77f88781261c" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-7a1f36bd-1c9a-4fa4-a2b6-58a6292aaea8" name="Condition_fb0651be-9973-4f79-a1dc-a5283d0e8261" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_38e320ca-374b-44ef-ba51-797acdd33aa6" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-8c8ea958-d5f9-4345-bb43-732365fbc105" name="Condition_12ae3fea-3156-477b-8373-4704c72083da" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_76883e51-5328-4065-8b04-5e07f44c282e" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-830f96cc-c10c-4282-b3bd-b9ab1dfd5742" name="Condition_bb7c7c4d-10c9-47bf-bae3-005fc784eaeb" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_024fdecb-8928-495f-9af0-a8d09c3162c1" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-4b83b58e-cba6-4f36-88cc-53a6213de772" name="Condition_cdbe8dfd-8d1b-42b0-8562-2e826d0793d4" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_116f8b31-f001-4c9a-ade6-5296005e761a" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-7f08a4e0-ac1c-4275-b340-669c01dae715" name="Condition_0fe999a8-8666-475f-9443-11a97a813ac4" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_2b9b8d1b-93e8-4ce3-b998-6f7e93c146fe" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-2f5351ee-3d1d-4df2-aad3-a8f0b748457f" name="Condition_283ea492-2ca8-494b-acbc-b857c9862657" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_500defa6-b6e7-4dba-b7fa-aa4474a44e39" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-0106ac7d-7005-47fb-965c-0911eaf9dad4" name="Condition_9d9ced6a-4f8d-408a-ac15-5cd5e613b23a" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_db203e06-9221-4e28-9f27-e868d7281c62" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-25f9f074-97ff-45bd-b3e7-967f2ca04599" name="Condition_e4629c43-c557-48d1-ac11-71135d56f1c1" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_116f8b31-f001-4c9a-ade6-5296005e761a" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-db6be0c2-bd1b-4707-b036-6270892d982d" name="Condition_c3707d6c-806f-4a0f-9b9f-fc0568d0dd76" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_38e320ca-374b-44ef-ba51-797acdd33aa6" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-0e74157d-82fb-44b9-b66e-8b7f09d5cc6b" name="Condition_a9107971-962e-4565-a35f-7b275c5fe34d" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_5bff108b-645a-4249-b393-77f88781261c" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-033b833f-4ffc-44d5-96c4-cbcdb89bfb97" name="Condition_e01f090a-f96a-4c6f-9781-be9edebed35a" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_76883e51-5328-4065-8b04-5e07f44c282e" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-6c82edf7-10da-4fcc-a790-59a35bd9d4d1" name="Condition_5a2035cb-f64c-4d90-8926-2aab4b871d26" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_6dbf9b65-c56a-424a-9d0d-6435deb3eff2" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-b1396ea8-1d71-45ba-8337-897ddab14f3b" name="Condition_abd0e979-47f7-4770-8dd4-2421612f3b93" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_db203e06-9221-4e28-9f27-e868d7281c62" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-4c09b6b6-cce0-4e81-b1c5-41b52dac8341" name="Condition_5a77634f-c3a9-4746-8ee4-f3917b61df35" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_ee132edb-6223-42c2-a69f-0ee7fdcf745f" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-9c75ed1b-f163-4040-8101-a2a9f925ea83" name="Condition_72ae5cbb-d28d-4ef0-b177-2379ee98070a" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_116f8b31-f001-4c9a-ade6-5296005e761a" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-afd6902e-bb98-459f-9c97-7c09df0bf1a8" name="Condition_028cc9e8-472b-40dc-b474-a3d57523b1c4" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_a2ca582f-fc94-47d1-a8a0-7f83ef79d99e" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-ab6b1dec-3e11-4191-a4db-a923772377db" name="Condition_033aca45-d678-4070-ac45-24c4bdd9a345" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_76883e51-5328-4065-8b04-5e07f44c282e" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-1177acf8-68f5-4d9a-8627-3d796d537efc" name="Condition_5a69f7da-f5a3-4b00-b71c-bb4d43fa6297" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="Super Metric|sm_ee132edb-6223-42c2-a69f-0ee7fdcf745f" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-f1b8fd64-ae4f-44ac-bb0e-1703e8ea351a" name="Condition_667a524d-5e6e-483f-ac55-fa1aaa537c64" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_6dbf9b65-c56a-424a-9d0d-6435deb3eff2" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-55b06ae9-249e-466a-8924-7ede5af56279" name="Condition_866e7ca5-2415-4111-8bff-3eac2c14e915" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_500defa6-b6e7-4dba-b7fa-aa4474a44e39" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-5a8dd72c-9aed-4a78-843a-5b04f4ac145e" name="Condition_58d9c7c1-565b-4fc8-938d-1b3e3dbbe4ef" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_a2ca582f-fc94-47d1-a8a0-7f83ef79d99e" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="vCenter Operations Adapter" disableInBasePolicy="true" id="SymptomDefinition-c59a6a68-62f8-49bb-ad26-956a14100f79" name="Condition_da3a663a-5d83-443b-8815-45c3f61862c4" resourceKind="vC-Ops-Cluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_db203e06-9221-4e28-9f27-e868d7281c62" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-4c0dc87e-4447-4520-a1f9-466c6e44d424" name="Condition_38e7cb51-0a83-472b-a2c8-a80f3706dc46" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_5bff108b-645a-4249-b393-77f88781261c" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-d7204ec9-2c28-4ce6-9e10-273290fa57c0" name="Condition_12b28941-c0d7-40e6-b2a7-71ee4c3941be" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_2b9b8d1b-93e8-4ce3-b998-6f7e93c146fe" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-e9be8c95-039e-4684-a890-9d0ea70e6eab" name="Condition_d3266460-68c7-4bd9-be3b-4e43d9988b20" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="Super Metric|sm_2b9b8d1b-93e8-4ce3-b998-6f7e93c146fe" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="CASAdapter" disableInBasePolicy="true" id="SymptomDefinition-3206a4ef-9b09-4315-a88c-6556cf9ba70f" name="Condition_297edace-ddd2-485e-b47f-c5993cd690b6" resourceKind="CAS World" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Super Metric|sm_ee132edb-6223-42c2-a69f-0ee7fdcf745f" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

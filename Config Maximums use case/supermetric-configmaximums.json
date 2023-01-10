@@ -1,0 +1,146 @@
+{
+   "5bff108b-645a-4249-b393-77f88781261c": {
+      "resourceKinds": [{
+         "resourceKindKey": "VMwareAdapter Instance",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1666818159676,
+      "name": "NG-vsphere total virtial machines %",
+      "formula": "(${this, metric=summary|total_number_vms}/45000)*100",
+      "description": "The value of this supermetric is the virtual machines % of the virtual machines configuration maximum (45000) at the vcenter server level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "ee132edb-6223-42c2-a69f-0ee7fdcf745f": {
+      "resourceKinds": [{
+         "resourceKindKey": "CAS World",
+         "adapterKindKey": "CASAdapter"
+      }],
+      "modificationTime": 1666902316554,
+      "name": "NG-vRA total blueprints %",
+      "formula": "(${this, metric=summary|TotalBlueprints}/10000)*100",
+      "description": "The value of this supermetric is the vRA blueprints % of the blueprints configuration maximum (10000) at the CAS World level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "500defa6-b6e7-4dba-b7fa-aa4474a44e39": {
+      "resourceKinds": [{
+         "resourceKindKey": "CAS World",
+         "adapterKindKey": "CASAdapter"
+      }],
+      "modificationTime": 1666902357771,
+      "name": "NG-vRA total projects %",
+      "formula": "(${this, metric=summary|TotalProjects}/5000)*100",
+      "description": "The value of this supermetric is the vRA projects % of the projects configuration maximum (5000) at the CAS World level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "6dbf9b65-c56a-424a-9d0d-6435deb3eff2": {
+      "resourceKinds": [{
+         "resourceKindKey": "VMwareAdapter Instance",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1666817728109,
+      "name": "NG-vSphere running virtual machines %",
+      "formula": "(${this, metric=summary|number_running_vms}/40000)*100",
+      "description": "The value of this supermetric is the running virtual machines % of the maximum running virtual machines allowed (40000) at the vcenter server level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "2b9b8d1b-93e8-4ce3-b998-6f7e93c146fe": {
+      "resourceKinds": [{
+         "resourceKindKey": "VMwareAdapter Instance",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1666818221530,
+      "name": "NG-vSphere total hosts %",
+      "formula": "(${this, metric=summary|total_number_hosts}/2500)*100",
+      "description": "The value of this supermetric is the hosts % of the hosts configuration maximum (2500) at the vcenter server level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "38e320ca-374b-44ef-ba51-797acdd33aa6": {
+      "resourceKinds": [{
+         "resourceKindKey": "CAS World",
+         "adapterKindKey": "CASAdapter"
+      }],
+      "modificationTime": 1666902397783,
+      "name": "NG-vRA total virtual machines %",
+      "formula": "(${this, metric=summary|VMCount}/280000)*100",
+      "description": "The value of this supermetric is the vRA virtual machines % of the virtual machines configuration maximum (280000) at the CAS World level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "392ac0d4-965e-4eb4-8014-b5f821180505": {
+      "resourceKinds": [{
+         "resourceKindKey": "VMwareAdapter Instance",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1666818357222,
+      "name": "NG-vSphere total datastores %",
+      "formula": "(${this, metric=summary|total_number_datastores}/16384)*100",
+      "description": "The value of this supermetric is the datastores % of the  datastores configuration maximum (16384) at the vcenter server level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "024fdecb-8928-495f-9af0-a8d09c3162c1": {
+      "resourceKinds": [{
+         "resourceKindKey": "vC-Ops-Cluster",
+         "adapterKindKey": "vCenter Operations Adapter"
+      }],
+      "modificationTime": 1666818095132,
+      "name": "NG-vrops metrics %",
+      "formula": "(${this, metric=PrimaryMetricsCount}/45000000)*100",
+      "description": "The value of this supermetric is the vrops metrics % of the vrops metrics configuration maximum (45000000) at the vrops cluster level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "a2ca582f-fc94-47d1-a8a0-7f83ef79d99e": {
+      "resourceKinds": [{
+         "resourceKindKey": "CAS World",
+         "adapterKindKey": "CASAdapter"
+      }],
+      "modificationTime": 1666902542136,
+      "name": "NG-vRA toal cloud zones %",
+      "formula": "(${this, metric=summary|TotalCloudZones}/10)*100",
+      "description": "The value of this supermetric is the vRA cloud zones % of the cloud zones configuration maximum (10) at the CAS World level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "116f8b31-f001-4c9a-ade6-5296005e761a": {
+      "resourceKinds": [{
+         "resourceKindKey": "VMwareAdapter Instance",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1666902179292,
+      "name": "NG-vRA total hosts %",
+      "formula": "(${this, metric=summary|total_number_hosts}/600)*100",
+      "description": "The value of this supermetric is the vRA hosts % of the hosts configuration maximum (600) at the vCenter Server level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "db203e06-9221-4e28-9f27-e868d7281c62": {
+      "resourceKinds": [{
+         "resourceKindKey": "vC-Ops-Cluster",
+         "adapterKindKey": "vCenter Operations Adapter"
+      }],
+      "modificationTime": 1666818044453,
+      "name": "NG-vrops objects %",
+      "formula": "(${this, metric=PrimaryResourcesCount}/264000)*100",
+      "description": "The value of this supermetric is the vrops objects % of the vrops objects configuration maximum (264000) at the vrops cluster level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   },
+   "76883e51-5328-4065-8b04-5e07f44c282e": {
+      "resourceKinds": [{
+         "resourceKindKey": "vC-Ops-Cluster",
+         "adapterKindKey": "vCenter Operations Adapter"
+      }],
+      "modificationTime": 1666817966764,
+      "name": "NG-vrops sessions %",
+      "formula": "(${this, metric=UI|TotalSessionCount}/60)*100",
+      "description": "The value of this supermetric is the vrops sessions % of the vrops sessions configuration maximum (60) at the vrops cluster level",
+      "unitId": "percent",
+      "modifiedBy": "8d183bbf-d635-4e95-b0dc-e295e0e1f767"
+   }
+}

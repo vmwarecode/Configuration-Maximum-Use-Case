@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="NSXTAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-18327a16-b3a5-4ebc-b098-c5c5e5d6437e" name="NG-NSX-T Distributed Firewall Sections" resourceKind="ManagementCluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-3dee0a86-13b4-4bb3-9010-463401e51032"/>
+                    <Symptom ref="SymptomDefinition-7ed90ea1-fad2-497d-adae-8b503b65b62e"/>
+                    <Symptom ref="SymptomDefinition-4605ac05-b9e4-437d-b7fd-f6a89207ea2e"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-27c29c6d-c19a-4860-8dc0-32886ad3a6df" name="NG-NSX-T Group Based on IP Sets" resourceKind="ManagementCluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-999350cf-c8b5-4763-a6ad-7b305dfd104f"/>
+                    <Symptom ref="SymptomDefinition-67969615-889e-4108-a8fe-06dd078158fe"/>
+                    <Symptom ref="SymptomDefinition-4580de0e-473b-46f7-a075-dc54612e0dea"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-460ca6f6-9ef1-4e05-abdf-2537979d4e3e" name="NG-NSX-T logical switches" resourceKind="ManagementCluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-6860d270-a1cf-4781-9d4d-0f3b60cc0c00"/>
+                    <Symptom ref="SymptomDefinition-3b1e7adf-89af-45df-a792-7f282e177a1a"/>
+                    <Symptom ref="SymptomDefinition-cb059478-31ed-4a3e-ac94-471fa13d101c"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-f4dacbd7-e23e-462b-92eb-efd905cc8a6d" name="NG-NSX-T System-wide Logical Switch Ports" resourceKind="ManagementCluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-adb4e244-c785-41be-bee5-2aa1eac0e23b"/>
+                    <Symptom ref="SymptomDefinition-ed0242c4-13ef-4325-8136-b383113387a2"/>
+                    <Symptom ref="SymptomDefinition-929818d1-c076-4174-9db7-eacb703bfdfe"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-a8f85cf9-6f19-4557-bffc-bbfd307c0ba5" name="NG-NSX-T Groups" resourceKind="ManagementCluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-34fbd3d5-3118-4418-bcc6-81d4174da7c7"/>
+                    <Symptom ref="SymptomDefinition-92699b37-28b7-44af-9009-4c5976f9f1d2"/>
+                    <Symptom ref="SymptomDefinition-2256195d-2940-4039-91b0-ebea1a8b044d"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-70fb1b6f-3025-4a54-bd35-a03ac08b0f77" name="NG-NSX-T Distributed Firewall Rules" resourceKind="ManagementCluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-c4322470-3d74-42e5-b01c-3cccdb24d8d7"/>
+                    <Symptom ref="SymptomDefinition-da170ad9-78ea-42e5-8f0c-122f8680f053"/>
+                    <Symptom ref="SymptomDefinition-a45c4458-d6f6-4eae-8e0d-6f7892c3f8d7"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" description="Critical is &gt;= 90% of config max&#10;Immediate is &gt;= 80% of config max&#10;Warning is &gt;=70% of config max" disableInBasePolicy="true" id="AlertDefinition-49367ff0-7384-451c-b296-061026026b35" name="NG-NSX-T IP Sets" resourceKind="ManagementCluster" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-b5da7512-75e3-4489-aab6-449ca8910f12"/>
+                    <Symptom ref="SymptomDefinition-7ef405ac-397a-4615-a6f8-e47180a99380"/>
+                    <Symptom ref="SymptomDefinition-f06c4e33-b7ae-44f6-afd5-77d814f3ae4c"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-ed0242c4-13ef-4325-8136-b383113387a2" name="Condition_98c34fc1-f3d4-45fd-9a3f-8f213345c751" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="System Capacity|System-wide Logical Switch Ports|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-6860d270-a1cf-4781-9d4d-0f3b60cc0c00" name="Condition_0dc12809-3e65-4730-9397-a472800c22cb" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="System Capacity|Logical Switches|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-67969615-889e-4108-a8fe-06dd078158fe" name="Condition_6f95fe36-17bd-4c90-baef-56834eb7a6c0" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="System Capacity|Groups Based on IP Sets|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-a45c4458-d6f6-4eae-8e0d-6f7892c3f8d7" name="Condition_734089ee-a399-4378-84f5-9d7a9ab51852" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="System Capacity|Distributed Firewall Rules|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-7ed90ea1-fad2-497d-adae-8b503b65b62e" name="Condition_3b72b346-7b9a-4175-8db7-46d758682411" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="System Capacity|Distributed Firewall Sections|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-cb059478-31ed-4a3e-ac94-471fa13d101c" name="Condition_7513835d-fb48-482a-9a22-7dea373efe81" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="System Capacity|Logical Switches|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-7ef405ac-397a-4615-a6f8-e47180a99380" name="Condition_e26776c0-d9d7-4ddf-80dc-3d8ea08b710f" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="System Capacity|IP Sets|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-4580de0e-473b-46f7-a075-dc54612e0dea" name="Condition_d51c2e4b-8c9b-4e1f-9ca0-37558f567882" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="System Capacity|Groups Based on IP Sets|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-4605ac05-b9e4-437d-b7fd-f6a89207ea2e" name="Condition_45aa950a-9c45-4186-86c6-8673494a5c17" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="System Capacity|Distributed Firewall Sections|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-92699b37-28b7-44af-9009-4c5976f9f1d2" name="Condition_07a9a2be-188e-4c1c-a790-2523bd43132a" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="System Capacity|Groups|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-adb4e244-c785-41be-bee5-2aa1eac0e23b" name="Condition_aea2d7b5-0550-4f59-996e-f76f6fdc7ecd" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="System Capacity|System-wide Logical Switch Ports|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-34fbd3d5-3118-4418-bcc6-81d4174da7c7" name="Condition_ac56656b-de9a-4631-ba2b-4594c26d409e" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="System Capacity|Groups|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-929818d1-c076-4174-9db7-eacb703bfdfe" name="Condition_f00008ab-eafb-46cc-80f1-4a50c1521089" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="System Capacity|System-wide Logical Switch Ports|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-3dee0a86-13b4-4bb3-9010-463401e51032" name="Condition_49f1d195-2bb6-45ef-aba6-17d13a5fa9bc" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="System Capacity|Distributed Firewall Sections|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-3b1e7adf-89af-45df-a792-7f282e177a1a" name="Condition_978db350-8e0d-4dfb-b9f5-632d3c0a3649" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="System Capacity|Logical Switches|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-999350cf-c8b5-4763-a6ad-7b305dfd104f" name="Condition_a904ee4f-e1c6-4d84-883d-066a16b1dbd5" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="System Capacity|Groups Based on IP Sets|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-b5da7512-75e3-4489-aab6-449ca8910f12" name="Condition_07342d44-0f89-4ca7-b563-a333c5a949a3" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="System Capacity|IP Sets|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-da170ad9-78ea-42e5-8f0c-122f8680f053" name="Condition_10f030bb-4170-4d22-b59d-75f61365cda8" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="System Capacity|Distributed Firewall Rules|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-c4322470-3d74-42e5-b01c-3cccdb24d8d7" name="Condition_220a090a-9f5e-443c-9653-e95819e3e997" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="System Capacity|Distributed Firewall Rules|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-2256195d-2940-4039-91b0-ebea1a8b044d" name="Condition_b4db5eac-fd55-40b1-a169-1b8b4d7ee311" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="System Capacity|Groups|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-f06c4e33-b7ae-44f6-afd5-77d814f3ae4c" name="Condition_b0f0a57d-ea6b-4037-a693-d3ad51d52d3b" resourceKind="ManagementCluster" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="System Capacity|IP Sets|UsageCountPercentage" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>
